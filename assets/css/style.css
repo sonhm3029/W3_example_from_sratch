@@ -127,7 +127,7 @@ button {
     margin-top: 46.204px;
     padding-top: 50%;
     position: relative;
-    background: url('/assets/img/slide/chicago.jpg') center / cover no-repeat;
+    background: url('../img/slide/chicago.jpg') center / cover no-repeat;
 }
 
 #slide2 {
@@ -135,7 +135,7 @@ button {
     padding-top: 50%;
     position: relative;
     display: none;
-    background: url('/assets/img/slide/la.jpg') center / cover no-repeat;
+    background: url('../img/slide/la.jpg') center / cover no-repeat;
 }
 
 #slide3 {
@@ -143,7 +143,7 @@ button {
     padding-top: 50%;
     position: relative;
     display: none;
-    background: url('/assets/img/slide/ny.jpg') center / cover no-repeat;
+    background: url('../img/slide/ny.jpg') center / cover no-repeat;
 }
 
 #content {
@@ -472,6 +472,11 @@ button:hover {
     opacity: 0.4;
 }
 
+
+.toggle {
+    height: auto!important;
+    overflow: initial!important;
+}
 
 /* @media (min-width:912px) {
 

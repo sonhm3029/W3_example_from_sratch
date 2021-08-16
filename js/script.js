@@ -114,5 +114,14 @@ $(function(){
     /*                                  Call function                                   */
     openModal();
     autoSlide(); 
-    addMenuToggler();
+    //addMenuToggler();
+
+    //I we use jquery it's easier 1000 times :)))
+    $(".menu-toggle").click(function () {
+        $("#header").toggleClass("toggle");
+    })
+
+    $("#nav>li").click(function() {
+        $("#header").removeClass("toggle");
+    })
 })
